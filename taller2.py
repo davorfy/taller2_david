@@ -32,3 +32,13 @@ def algoritmo_3(mon_fianza):
         cuota = mon_fianza * 0.02
 
     return cuota
+
+#Ejercicio 4
+def algoritmo_4(prom, gan_diaria):
+    if prom > 170:
+        multa = gan_diaria / 2
+        perd = (gan_diaria * 5) + multa
+
+        return f'Multa: {multa}... Perdida: {perd}'
+
+    return 'Sin sancion'
