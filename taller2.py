@@ -78,3 +78,18 @@ def algoritmo_7(prec, marc):
 
     total = (prec - desc) * 1.16
     return total
+
+#Ejercicio 8
+def algoritmo_8(total):
+    if total > 500000:
+        inv = total * 0.55
+        prest = total * 0.3
+        cred = total * 0.15
+    else:
+        inv = total * 0.7
+        cred = total * 0.3
+        prest = 0
+
+    intereses = cred * 0.2
+
+    return inv, prest, cred, intereses
