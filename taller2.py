@@ -53,7 +53,7 @@ def algoritmo_5(prec, deval, increm):
 
     return False
 
-#Ejercicio 5
+#Ejercicio 6
 def algoritmo_6(cant):
     total = cant * 11000
 
@@ -65,3 +65,16 @@ def algoritmo_6(cant):
         desc = total * 0.4
 
     return desc
+
+#Ejercicio 7
+def algoritmo_7(prec, marc):
+    desc = 0
+
+    if marc == 'NOSY':
+        desc += prec * 0.05
+
+    if prec >= 2000:
+        desc += prec * 0.1
+
+    total = (prec - desc) * 1.16
+    return total
