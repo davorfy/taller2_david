@@ -93,3 +93,12 @@ def algoritmo_8(total):
     intereses = cred * 0.2
 
     return inv, prest, cred, intereses
+
+#Ejercicio 9
+def algoritmo_9(n1, n2):
+    if n1 == n2:
+        return n1 * n2
+    elif n1 > n2:
+        return n1 - n2
+    else:
+        return n1 + n2
