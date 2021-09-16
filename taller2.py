@@ -14,3 +14,12 @@ def algoritmo_1(num_camisa, total_compra):
     total_pagar = total_compra - desc
 
     return desc, total_pagar
+
+#Ejercicio 2
+def algoritmo_2(num, total_compra):
+    if num >= 74:
+        desc = total_compra * 0.2
+    else:
+        desc = total_compra * 0.15
+
+    return desc
