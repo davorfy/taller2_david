@@ -42,3 +42,13 @@ def algoritmo_4(prom, gan_diaria):
         return f'Multa: {multa}... Perdida: {perd}'
 
     return 'Sin sancion'
+
+#Ejercicio 5
+def algoritmo_5(prec, deval, increm):
+    can_deval = -1 * (((prec * deval) * deval) * deval)
+    can_increm = (((prec * increm) * increm) * increm)
+
+    if can_deval < (can_increm / 2):
+        return True
+
+    return False
