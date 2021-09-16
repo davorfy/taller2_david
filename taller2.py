@@ -52,3 +52,16 @@ def algoritmo_5(prec, deval, increm):
         return True
 
     return False
+
+#Ejercicio 5
+def algoritmo_6(cant):
+    total = cant * 11000
+
+    if cant < 5:
+        desc = total * 0.1
+    elif cant >= 5 and cant < 10:
+        desc = total * 0.2
+    elif cant > 10:
+        desc = total * 0.4
+
+    return desc
