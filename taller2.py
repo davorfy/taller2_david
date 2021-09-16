@@ -102,3 +102,17 @@ def algoritmo_9(n1, n2):
         return n1 - n2
     else:
         return n1 + n2
+
+#Ejercicio 10
+def algoritmo_10(n1, n2, n3):
+    if n1 == n2 == n3:
+        return 'los números ingresados son iguales'
+
+    if n1 >= n2 and n1 >= n3:
+        return n1
+
+    if n2 >= n1 and n2 >= n3:
+        return n2
+
+    if n3 >= n1 and n3 >= n2:
+        return n3
