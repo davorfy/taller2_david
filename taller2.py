@@ -23,3 +23,12 @@ def algoritmo_2(num, total_compra):
         desc = total_compra * 0.15
 
     return desc
+
+#Ejercicio 3
+def algoritmo_3(mon_fianza):
+    if mon_fianza <= 50000:
+        cuota = mon_fianza * 0.03
+    else:
+        cuota = mon_fianza * 0.02
+
+    return cuota
